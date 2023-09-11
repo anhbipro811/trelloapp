@@ -16,13 +16,13 @@ function ModeSelect() {
     setMode(selectedMode)
   }
   return (
-    <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
+    <FormControl size="small">
       <InputLabel id="label-dark-light-mode-select">Mode</InputLabel>
       <Select
         labelId="label-dark-light-mode-select"
         id="dark-light-mode-select"
         value={mode}
-        label="Age"
+        label="Mode"
         onChange={handleChange}
       >
         <MenuItem value="light">
